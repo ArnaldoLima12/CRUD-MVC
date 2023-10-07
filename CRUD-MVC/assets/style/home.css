@@ -1,0 +1,60 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.meio
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.titulo > h1
+{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.options
+{
+    width: 30%;
+    min-width: 200px;
+}
+.options > ul
+{   
+   
+    list-style-type: none;
+    padding: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.options > ul > li > a
+{   
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color:#87D4FF;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
+}
+
+.options > ul > li > a:hover
+{
+    background-color: #5e91af;
+}
